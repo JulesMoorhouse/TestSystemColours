@@ -20,7 +20,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            VStack { Text("Primary").foregroundColor(.white) }
+            VStack { Text("Primary").foregroundColor(.systemBackground) }
                 .frame(width: w, height: h)
                 .background(Color.primary)
 
